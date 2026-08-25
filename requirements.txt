@@ -1,0 +1,23 @@
+# ==========================================
+# Tactile EMI Vulnerability Monitor
+# Python Dependencies
+# ==========================================
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision & Image Processing
+opencv-python>=4.7.0.72
+Pillow>=9.5.0
+scikit-image>=0.21.0
+
+# Math, Statistics & Data Processing
+numpy>=1.24.3
+scipy>=1.10.1
+pandas>=2.0.0
+
+# Hardware SDK Dependencies
+ffmpeg-python>=0.2.0
+
+# pyserial>=3.5  (Uncomment if gs_sdk requires serial communication)
