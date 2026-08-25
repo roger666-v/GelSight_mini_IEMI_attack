@@ -70,7 +70,7 @@ You must activate the virtual environment before running any scripts:
 
 ---
 
-## 📂 Experimental Data & Media
+## Experimental Data & Media
 
 To reproduce our results or observe the physical EMI phenomena, please access our comprehensive **https://drive.google.com/drive/folders/1iBuSMDTVZGinFxqeh6bHqhKnltIhUgqo?usp=drive_link**. 
 
