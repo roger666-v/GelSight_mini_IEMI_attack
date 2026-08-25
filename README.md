@@ -70,6 +70,17 @@ You must activate the virtual environment before running any scripts:
 
 ---
 
+## 📂 Experimental Data & Media
+
+To reproduce our results or observe the physical EMI phenomena, please access our comprehensive **https://drive.google.com/drive/folders/1iBuSMDTVZGinFxqeh6bHqhKnltIhUgqo?usp=drive_link**. 
+
+This cloud directory contains the following supplementary materials:
+*   **`dataset/`**: The raw, uncompressed tactile image dataset (`.zip`) used for training and hardware signal integrity (SNR/ANOVA) evaluation.
+*   **`emi_failure_modes/`**: Direct visual evidence of the hardware vulnerabilities, including the "Sensor Blinding" (white-out) frames and a video recording of the USB PHY crash (Denial of Service).
+*   **`antenna_setup/`**: Reference images of the physical RF injection environment, detailing antenna positioning and distance relative to the sensor.
+
+---
+
 ## Quick Start
 
 Once the environment is active and the sensor is connected, you can run the following modules:
