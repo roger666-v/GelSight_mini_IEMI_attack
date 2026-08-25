@@ -1,0 +1,29 @@
+============================================================
+1. Hardware Integrity: Dataset SNR (dB)
+============================================================
+ - R    Combination SNR :   1.36 dB
+ - G    Combination SNR :   1.88 dB
+ - B    Combination SNR :   0.87 dB
+ - RG   Combination SNR :   1.59 dB
+ - RB   Combination SNR :   1.09 dB
+ - GB   Combination SNR :   1.28 dB
+ - RGB  Combination SNR :   1.31 dB
+
+============================================================
+2. ML Feature Separability: ANOVA F-Statistic
+============================================================
+ - R    Combination F-Score :   202.75
+ - G    Combination F-Score :   245.78
+ - B    Combination F-Score :   157.46
+ - RG   Combination F-Score :   224.27
+ - RB   Combination F-Score :   180.10
+ - GB   Combination F-Score :   201.62
+ - RGB  Combination F-Score :   202.00
+
+============================================================
+Executive Summary
+============================================================
+ -> Highest SNR (Hardware Fidelity) : G Configuration
+ -> Highest ML Separability (ANOVA) : G Configuration
+ -> Lowest Performance (Noise Source) : B Configuration
+ -> Recommendation: Mask out channels that heavily degrade the combined F-Score.
